@@ -1,4 +1,6 @@
-# dsh-ask-grow 🍅
+# dsh-tomatronic-child-raise 🍅
+
+**问问 / Ask & Grow**
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -73,7 +75,7 @@ child-doc/
 ## Install
 
 ```bash
-dsh plugin --profile web add "github:a903067276-rgb/dsh-ask-grow#main"
+dsh plugin --profile web add "github:a903067276-rgb/dsh-tomatronic-child-raise#main"
 ```
 
 If your DSH host requires a restart after installing a bundle, restart it once.

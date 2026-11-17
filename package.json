@@ -1,6 +1,6 @@
 {
   "name": "dsh-tomatronic-child-raise",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Ask & Grow: a parenting archive plugin for DSH. One Markdown archive per child, pregnancy to age 3, with read-only charts and summaries.",
   "type": "module",
   "main": "lib/index.js",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/a903067276-rgb/dsh-ask-grow.git"
+    "url": "https://github.com/a903067276-rgb/dsh-tomatronic-child-raise.git"
   },
   "dsh": {
     "compatibility": {
@@ -69,6 +69,6 @@
     "@deepseek-ai/schemastery": "^3.18.3"
   },
   "scripts": {},
-  "homepage": "https://github.com/a903067276-rgb/dsh-ask-grow",
+  "homepage": "https://github.com/a903067276-rgb/dsh-tomatronic-child-raise",
   "author": "a903067276-rgb"
 }
