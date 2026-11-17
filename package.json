@@ -1,0 +1,74 @@
+{
+  "name": "dsh-tomatronic-child-raise",
+  "version": "0.1.0",
+  "description": "Ask & Grow: a parenting archive plugin for DSH. One Markdown archive per child, pregnancy to age 3, with read-only charts and summaries.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "parenting",
+    "child-development",
+    "growth-archive",
+    "育儿",
+    "育儿档案"
+  ],
+  "license": "MIT",
+  "engines": {
+    "dsh": ">=0.2.2-rc.1",
+    "node": ">=22.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a903067276-rgb/dsh-ask-grow.git"
+  },
+  "dsh": {
+    "compatibility": {
+      "dshReleases": {
+        "0.2.2-rc.1": "compatible",
+        "0.2.2-rc.3": "compatible"
+      }
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-chat",
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-api-workspace-controller"
+      ],
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.1.0",
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.7 || ^0.1.1-rc.1 || ^0.1.2-alpha.2 || ^0.1.5-rc.1 || ^0.2.0-rc.1",
+    "@deepseek-ai/schemastery": "^3.18.3"
+  },
+  "scripts": {},
+  "homepage": "https://github.com/a903067276-rgb/dsh-ask-grow",
+  "author": "a903067276-rgb"
+}

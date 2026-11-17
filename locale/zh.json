@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "问问",
+    "description": "问问：孕期与 0–3 岁育儿档案。打开右侧栏「问问」或左栏入口，给每个孩子维护一份 Markdown 档案：日常、奶与餐食、睡眠、生长、疫苗、体检、里程碑、评估观察和花费。图表和汇总是文件的只读投影，没有第二份数据库，也不做诊断或医疗建议。设置在本插件的「插件」入口。数据留在你选择的工作区。插件内界面当前为中文，英文界面暂缓。\n\nAsk & Grow: a Markdown archive for pregnancy and ages 0–3, with read-only charts and summaries. Settings live in this plugin’s Plugin Manager entry. The in-plugin UI is currently Chinese; English UI is deferred.",
+    "detail": "docs/DETAIL.md"
+  }
+}

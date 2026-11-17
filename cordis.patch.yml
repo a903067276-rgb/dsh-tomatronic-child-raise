@@ -1,0 +1,20 @@
+# dsh-tomatronic-child-raise — 育儿搭档「问问」
+#
+# bundle 安装：dsh plugin --profile web add "github:a903067276-rgb/dsh-tomatronic-child-raise#main"
+# 配置写 profile 的 cordis.patch.yml 同名条目 config：
+#
+# - id: child-raise
+#   name: 'dsh-tomatronic-child-raise'
+#   config:
+#     workspace: ~/Documents/DSH/child-doc
+#     contentDir: docs
+#     children:
+#       - id: fanqie
+#         name: 示例宝宝
+#         birthDate: 2024-01-01
+#         sex: 女
+#
+# 本文件只声明挂载条目；配置在 profile 的用户层（设置页「插件」里可改）。
+- insert:
+    - id: child-raise
+      name: 'dsh-tomatronic-child-raise'
