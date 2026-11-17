@@ -1,4 +1,4 @@
-![问问：孩子档案与成长记录](preview.svg)
+![问问：孩子档案与成长记录](screenshots/summary.png)
 
 ## 问问：有档案的育儿搭档
 
