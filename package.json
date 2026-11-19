@@ -1,6 +1,6 @@
 {
   "name": "dsh-tomatronic-child-raise",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Ask & Grow: a parenting archive plugin for DSH. One Markdown archive per child, pregnancy to age 3, with read-only charts and summaries.",
   "type": "module",
   "main": "lib/index.js",
